@@ -1,7 +1,7 @@
-# Python Project Demo - Body Mass Index Calculator
-Welcome to python project demo! 
+# Python Project Demo - Body Mass Index Indicator
+Welcome to my python project demo! 
 
-In this showcase, I have created a Body Mass Index Calculator (BMI) for fun:
+In this showcase, i have created a Body Mass Index Indicator (BMI) to gauge one's health status:
 
 ## <b> Approach </b><br>
 (1) Import random (<- function to generate / manipulate numbers) <br>
@@ -25,3 +25,5 @@ In this showcase, I have created a Body Mass Index Calculator (BMI) for fun:
 
 #### Result 4 - Obese
 <img src="https://github.com/hueeylow/python/blob/main/result_4.gif" width="800">
+<br>
+This simple tool motivates me to explore further into the wonders of python programming!

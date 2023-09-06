@@ -10,18 +10,18 @@ In this showcase, I have created a Body Mass Index Calculator (BMI) for fun:
 (4) Set if/else conditions: Underweight / Normal Weight / Overweight / Obese <br>
 (5) Execute to test run <br>
 
-<img src="https://github.com/hueeylow/python/blob/main/BMI.gif" width="800">
+<img src="" width="800">
 
 ## <b> Executed Results </b>
 
 #### Result 1 - Underweight
-<img src="https://github.com/hueeylow/python/blob/main/result_1.gif" width="800">
+<img src="" width="800">
 
 #### Result 2 - Normal Weight
-<img src="https://github.com/hueeylow/python/blob/main/result_2.gif" width="800">
+<img src="" width="800">
 
 #### Result 3 - Overweight
-<img src="https://github.com/hueeylow/python/blob/main/result_3.gif" width="800">
+<img src="" width="800">
 
 #### Result 4 - Obese
-<img src="https://github.com/hueeylow/python/blob/main/result_4.gif" width="800">
+<img src="" width="800">

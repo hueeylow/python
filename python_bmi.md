@@ -25,5 +25,4 @@ In this showcase, i have created a Body Mass Index Indicator (BMI) to gauge one'
 
 #### Result 4 - Obese
 <img src="https://github.com/hueeylow/python/blob/main/result_4.gif" width="800">
-<br>
-This simple tool motivates me to explore further into the wonders of python programming!
+I had fun writing this simple tool in which motivates me to explore further into the wonders of python programming!

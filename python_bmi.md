@@ -1,7 +1,7 @@
-# Python Project Demo - Body Mass Index Indicator
+# Python Project Demo - Body Mass Index (BMI) Indicator
 Welcome to my python project demo! 
 
-In this showcase, i have created a Body Mass Index Indicator (BMI) to gauge one's health status:
+In this showcase, i have created a Body Mass Index (BMI) Indicator tool to gauge one's health status:
 
 ## <b> Approach </b><br>
 (1) Import random (<- function to generate / manipulate numbers) <br>

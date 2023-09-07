@@ -7,28 +7,25 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 (1) Import Python Libraries <br>
 <img src="https://github.com/hueeylow/python/blob/main/01_import_lib_csv.gif">
 <br>
-<br>
 (2) Well-cleansed dataset with no present null values; a total of 13,932 records, 17 columns.
 <img src="https://github.com/hueeylow/python/blob/main/02_check_null_viewshape.gif" width="635">
 <img src="https://github.com/hueeylow/python/blob/main/04_check_missing_values.gif">
-<br>
 <br>
 (3) Using Data.head ( ) function to show top dataset
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/03_view_head_dataset.gif">
 <br>
-<br>
 (4) Using Describe function to view on min/max values, total records etc.
 <img src="https://github.com/hueeylow/python/blob/main/05_describe_corr.gif">
-<br>
 <br>
 (5) Heatmap plot on correlation between variables
 <br>
 <br>
-From the heatmap results, houses in close proximity to central abnd subcenters are tentiatively much pricey than locations near to rail and ocean.
-
+<b>Analysis </b><br>
+Correlation ranges from -1.0 to +1.0. Values nearer to zero shows that there is no linear trend between the two attributes. Attributes with values close to 1 shows strong and positive correlations, likewise for close to -1 shows weak correlations. For instance, total living area vs sale price has +0.7 value, thus is also logical to denote that the bigger living area are more pricer. Houses in central and subcenters regions are pricer than those in railway and ocean regions. <br>
+<br>
 <img src="https://github.com/hueeylow/python/blob/main/06_heatmap_1.gif">
-<br><br>
+<br>
 (6) Linear Regression - Train dataset to perform predicitive analysis<br>
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/07_linear_regression.gif">

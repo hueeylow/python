@@ -1,4 +1,6 @@
-# Predictive Analysis on Housing Pricing using Python Learning Model
+# Predictive Analysis on Housing Prices using Python Learning Model
+
+<br>
 In this demo, Miami Housing dataset was downloaded from Kaggle to perform predicitive analysis on housing prices using existing values. 
 <br>
 <br>
@@ -18,8 +20,13 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 <br>
 (4) Using Describe function to view on min/max values, total records etc.
 <img src="https://github.com/hueeylow/python/blob/main/05_describe_corr.gif">
+<br>
+<br>
+(5) Heatmap plot on correlation between variables
+<br>
+<br>
+From the heatmap results, houses in close proximity to central abnd subcenters are tentiatively much pricey than locations near to rail and ocean.
 
-(5) Plotting heatmap to understand how values influence the decision
 <img src="https://github.com/hueeylow/python/blob/main/06_heatmap_1.gif">
 <br><br>
 (6) Linear Regression - Train dataset to perform predicitive analysis<br>

@@ -42,11 +42,11 @@ From the heatmap results, houses in close proximity to central abnd subcenters a
 <img src="https://github.com/hueeylow/python/blob/main/09_train_data.gif">
 <br>
 (9) Checking of Normality Error <br>
-<img src="https://github.com/hueeylow/python/blob/main/10_normality_error.gif"><br>
-(10) Checking Residual. Normal distribution, hence is acceptable
+<img src="https://github.com/hueeylow/python/blob/main/10_normality_error.gif"><br> <br>
+(10) Checking Residual <br> There is symmetry pattern observed in the histogram chart that indicate a normal distribution.
 <img src="https://github.com/hueeylow/python/blob/main/11_residuals.gif">
 <br>
-Evaluate results. Both test and train accuracy scores are ~90%.
+(11) Evaluated results. Both test and train data accuracy scores ~90%.
 <img src="https://github.com/hueeylow/python/blob/main/12_predict_test_data_evaluation.gif">
 <br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

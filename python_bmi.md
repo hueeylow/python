@@ -13,7 +13,7 @@ In this showcase, i have created a Body Mass Index (BMI) Indicator tool to gauge
 <img src="https://github.com/hueeylow/python/blob/main/BMI.gif" width="800">
 
 ## <b> Executed Results </b>
-It's time to test out the coding. After clicking 'Run Module' to execute the program, IDLE Shell 3.11.5 test environment will prompt for user's input susbequently (name, height, weight), and thereafter return results of the computed BMI and remarks of the health status. <br>
+It's time to test out the coding. After clicking 'Run Module' to execute the program, IDLE test environment will prompt for user's input susbequently (name, height, weight), and thereafter return results of the computed BMI and remarks on health status. <br>
 #### Result 1 - Underweight
 <img src="https://github.com/hueeylow/python/blob/main/result_1.gif" width="800">
 

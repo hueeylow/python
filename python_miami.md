@@ -42,4 +42,4 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 Evaluate results. Both test and train accuracy scores are ~90%.
 <img src="https://github.com/hueeylow/python/blob/main/12_predict_test_data_evaluation.gif">
 <br>
-<a href="https://github.com/hueeylow"> Back to main page </a>
+<a href="https://github.com/hueeylow"> < Back to main page </a>

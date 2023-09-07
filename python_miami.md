@@ -22,7 +22,7 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 <br>
 <br>
 <b>Analysis </b><br>
-Correlation ranges from -1.0 to +1.0. Values nearer to zero shows that there is no linear trend between the two attributes. Attributes with values close to 1 shows strong and positive correlations, likewise for close to -1 shows weak correlations. For instance, total living area vs sale price has +0.7 value, thus is also logical to denote that the bigger living area are more pricer. Houses in central and subcenters regions are pricer than those in railway and ocean regions. <br>
+Correlation ranges from -1.0 to 1.0. Values nearer to zero shows that there is no linear trend between the two attributes. Attributes with values close to 1.0 shows strong and positive correlations, likewise for close to -1 shows weak correlations. For instance, total living area vs sale price has 0.7 value, thus is also logical to denote that the bigger living area are more pricer. Houses in central and subcenters regions are pricer than those in railway and ocean regions. <br>
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/06_heatmap_1.gif">
 <br>

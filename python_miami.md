@@ -22,16 +22,16 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 (5) Plotting heatmap to understand how values influence the decision
 <img src="https://github.com/hueeylow/python/blob/main/06_heatmap.gif">
 <br><br>
-(6) Linear Regression - Train the dataset to perform predicitive analysis<br>
+(6) Linear Regression - Train dataset to perform predicitive analysis<br>
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/07_linear_regression.gif">
 <br>
-(7) To Split target variable (Sales Price) and independent variables. 80% for training, 20% for testing
+(7) To split target variable (Sales Price) and independent variables. 80% for training data, 20% for testing data
 <img src="https://github.com/hueeylow/python/blob/main/07_split data.gif"><br>
 
 <img src="https://github.com/hueeylow/python/blob/main/08_coeff.gif">
 <br>
-(8) Train the data to read reference values. Results shown train data accuracy is around 70%  <br>
+(8) Train the data to read reference values. Results shown train data accuracy is around ~70%  <br>
 <img src="https://github.com/hueeylow/python/blob/main/09_train_data.gif">
 <br>
 (9) Checking of Normality Error <br>

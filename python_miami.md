@@ -20,7 +20,7 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 <img src="https://github.com/hueeylow/python/blob/main/05_describe_corr.gif">
 
 (5) Plotting heatmap to understand how values influence the decision
-<img src="https://github.com/hueeylow/python/blob/main/06_heatmap.gif">
+<img src="https://github.com/hueeylow/python/blob/main/06_heatmap_1.gif">
 <br><br>
 (6) Linear Regression - Train dataset to perform predicitive analysis<br>
 <br>

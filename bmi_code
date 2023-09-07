@@ -5,7 +5,7 @@ name = str(input("What is your name? "))
 height = float(input("Please enter your Height: "))/100
 weight = float(input ("Please enter your Weight: "))
 
-#Define calculation
+#Define computation
 bmi= weight/(height*height)
 
 #Set if/else conditions

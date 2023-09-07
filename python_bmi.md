@@ -26,5 +26,4 @@ It's time to test out the coding. After clicking 'Run Module' to execute the pro
 #### Result 4 - Obese
 <img src="https://github.com/hueeylow/python/blob/main/result_4.gif" width="800">
 <br>
-<br>
 <a href = "https://github.com/hueeylow"> < Back to main page </a>

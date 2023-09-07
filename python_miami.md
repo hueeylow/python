@@ -6,7 +6,7 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 <img src="https://github.com/hueeylow/python/blob/main/01_import_lib_csv.gif">
 <br>
 <br>
-(2) Well-cleansed dataset with no present null values; a total of 13932 records, 17 columns.
+(2) Well-cleansed dataset with no present null values; a total of 13,932 records, 17 columns.
 <img src="https://github.com/hueeylow/python/blob/main/02_check_null_viewshape.gif" width="635">
 <img src="https://github.com/hueeylow/python/blob/main/04_check_missing_values.gif">
 <br>

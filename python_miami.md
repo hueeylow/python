@@ -16,7 +16,7 @@ In this demo, Miami Housing dataset was downloaded from Kaggle to perform predic
 <img src="https://github.com/hueeylow/python/blob/main/03_view_head_dataset.gif">
 <br>
 <br>
-(4) Using Describe function to see info on min/max, total count, deviaton etc.
+(4) Using Describe function to view on min/max values, total records etc.
 <img src="https://github.com/hueeylow/python/blob/main/05_describe_corr.gif">
 
 (5) Plotting heatmap to understand how values influence the decision

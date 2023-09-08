@@ -59,6 +59,7 @@ Scattered spoint in read has high selling priice due to bigger floor area and lo
 
 <br>
 <b> (10) Checking for Normality Errors </b><br>  <br>
+It is observed that most scatter points fall along straight diagonal 45 degrees line, thus can assume that the dataset is normally distributed.
 <img src="https://github.com/hueeylow/python/blob/main/13_Checking_Normality_Errors.gif">
 
 <br>

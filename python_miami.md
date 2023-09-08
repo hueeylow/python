@@ -46,5 +46,5 @@ Correlation ranges from -1.0 to 1.0. Values nearer to zero shows that there is n
 (11) Evaluated results. Both test and train data accuracy scores ~90%.
 <img src="https://github.com/hueeylow/python/blob/main/12_predict_test_data_evaluation.gif">
 <br>
-Note: This page is still developing
+Note: This page is still developing <br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

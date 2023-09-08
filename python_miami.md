@@ -47,6 +47,8 @@ Liner regression method uses relationship between data-points to form a straight
 
 <img src="https://github.com/hueeylow/python/blob/main/09_PredictionModel_Output.gif ">
 <br>
+Prediction values in the heatmap explains that variables are correlated either -1.0 or +1.0. Closer to 1.0 shows strong positive relationship and vice-versa for -1.0. As the target variable here is sales price, values closer to 1.0 would mean the attribute has high selling price. For example, houses located nearest to Miami central Business District and Subcenter has the highest selling price.
+<br>
 <b> (8) Heatmap plot of prediction model </b><br>  <br>
 <img src="https://github.com/hueeylow/python/blob/main/10_Heatmap_PredictionModel.gif">
 <br>

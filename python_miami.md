@@ -71,7 +71,7 @@ It is observed that distrbution is normal and evenly spreaded with a bell-shaped
 <img src="https://github.com/hueeylow/python/blob/main/14_Checking_Residual_2.gif">
 
 <br>
-<b> (12) Evaluate the Prediction Model </b><br>  <br>
+<b> (12) Evaluate the Prediction Model </b><br>
 <br>
 Four error metrics are used to evaluate the performance of the linear regression models, to show how well the data fit the regresion model: <br>
 (1) Root Mean Squared Error (RMSE) <br>

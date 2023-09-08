@@ -80,10 +80,8 @@ Four error metrics are used to evaluate the performance of the linear regression
 (4) R-Squared (R²)
 <br>
 <br>
-From the computed metrics, I can conclude that the data is closely fit to the regression line, hence prediction model is reliable.
+From the computed metrics, I can conclude that the data is closely fit to the regression line, hence prediction model and analysis has high accuracy and reliablity.
 <img src="https://github.com/hueeylow/python/blob/main/15_Check_Alogrithm.gif">
 <br>
 
-<br>
-Note: This page is still developing <br> <br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

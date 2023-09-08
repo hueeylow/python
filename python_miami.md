@@ -41,7 +41,7 @@ Sales Price is set as target variable to predict future housing price using rest
 <br>
 
 <b> (7) Train the model using Linear Regression </b><br>  <br>
-Liner regression method uses relationship between data-points to form a straight line throgh, and at such it predict the future values.
+Liner regression method uses relationship between data-points to form a straight line through, and at such it predict the future values.
 <br><br>
 <img src="https://github.com/hueeylow/python/blob/main/08_LinearRegression.gif">
 

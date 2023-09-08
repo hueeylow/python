@@ -23,7 +23,7 @@ This function is called to return descriptions that I am interested to know - mi
 <br>
 
 <b> (4) Scatterplot to show correlation between Sales Price and Floor Area</b><br>  <br>
-The scatterplot explains that coordinate points shifting to the right would mean increasing floor area tend to have increasing asking sale price.
+The scatterplot explains that coordinate points shifting to the right would mean increasing floor area tend to have higher asking price.<br>
 <img src="https://github.com/hueeylow/python/blob/main/05_TotalLvgArea_SalesPrice.gif">
 <br>
 

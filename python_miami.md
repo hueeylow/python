@@ -73,13 +73,13 @@ It is observed that distrbution is normal and evenly spreaded with a bell-shaped
 <br>
 <b> (12) Evaluate the Prediction Model </b><br>
 <br>
-Four error metrics are used to evaluate the performance of the linear regression models, to show how well the data fit the regresion model: <br>
+Four error metrics were used to evaluate the performance of the linear regression model, to show how well the predictive data fit the regresion model: <br>
 (1) Root Mean Squared Error (RMSE) <br>
 (2) Mean Squared Error (MSE)  <br>
 (3) Mean Absolute Error (MAE) <br>
 (4) R-Squared (R²) <br>
 <br>
-From the below computed metrics, it can be concluded that the prediction model is closely fit to the regression line.
+From the below computed metrics, it can be concluded that the prediction data is of 70% close fit to the regression model.
 <img src="https://github.com/hueeylow/python/blob/main/15_Check_Alogrithm.gif">
 <br>
 

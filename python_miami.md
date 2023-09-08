@@ -12,12 +12,12 @@ The necessary libraries to be imported are: <br>
 - Seaborn (For visualization on top of MatPlotlib) <br>
 <img src="https://github.com/hueeylow/python/blob/main/01_Import_Lib_CSV.gif" width="635">
 <br>
-<b> (2) Check for null values </b><br>  <br>
-To check for null values before perform any data cleansing. The dataset is fine, thus no data-cleansing is required
+<b> (2) Assess Data Quality </b><br>  <br>
+  It is manadatory good practice to assess the data quality before using. Typically data cleaning is applied to fix wrong data, removing duplicates, data in wrong format and empty cells. The dataset used in this demo does not required any further action of data cleaning. I will show steps on data-cleaning in next post. Let's now proceed for data exploration. <br><br>
 <img src="https://github.com/hueeylow/python/blob/main/02_CheckNull.gif" width="635">
 <img src="https://github.com/hueeylow/python/blob/main/03_CheckMissingValue.gif" width="635">
 
-<b> (3) Describe dataset to view min/max value & total records of each attribute</b><br>  <br>
+<b> (3) Using Describe dataset function to view min/max value & total records of each attribute</b><br>  <br>
 <img src="https://github.com/hueeylow/python/blob/main/04_CheckMissingValue.gif">
 <br>
 

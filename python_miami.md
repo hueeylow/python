@@ -18,7 +18,7 @@ The necessary libraries to be imported are: <br>
 <img src="https://github.com/hueeylow/python/blob/main/03_CheckMissingValue.gif" width="635">
 
 <b> (3) Using Describe( ) function to view min/max value & total records of each attribute in the dataset</b><br> <br> 
-This function is called to return description that I am interested to know - min/max value, total records of each attribute in the dataset.
+This function is called to return descriptions that I am interested to know - min/max value, total records of each attribute in the dataset.
 <img src="https://github.com/hueeylow/python/blob/main/04_CheckMissingValue.gif">
 <br>
 

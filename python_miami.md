@@ -65,7 +65,7 @@ Most of the data points are along the straight diagonal line of 45-degrees angle
 <br>
 <b> (11) Checking for Residual </b><br> 
 <br>
-It is observed that distrbution is normal and evenly spreaded with a bell-shaped peakm and is symmetric around the mean. The mean, median and mode here are equal.<br><br>
+The data distrbution is normal and evenly spread with a bell-shaped peak and is symmetrically formed. The mean, median and mode is hereby equal.<br><br>
 <img src="https://github.com/hueeylow/python/blob/main/14_Checking_Residual_1.gif">
 
 <img src="https://github.com/hueeylow/python/blob/main/14_Checking_Residual_2.gif">

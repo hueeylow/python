@@ -53,7 +53,7 @@ Prediction values in the heatmap explains that variables are correlated either -
 <img src="https://github.com/hueeylow/python/blob/main/10_Heatmap_PredictionModel.gif">
 <br>
 <b> (9) Scatterplot of Sales Price vs Floor Area </b><br>  <br>
-
+Scattered spoint in read has high selling priice due to bigger floor area and located near CBD and Subcenters.
 <img src="https://github.com/hueeylow/python/blob/main/11_Scatterplot_Sales_Prc.gif">
 <img src="https://github.com/hueeylow/python/blob/main/12_Scatterplot_Sales_Prc_Map.gif">
 

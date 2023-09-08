@@ -79,7 +79,6 @@ Four error metrics are used to evaluate the performance of the linear regression
 (3) Mean Absolute Error (MAE) <br>
 (4) R-Squared (R²) <br>
 <br>
-<br>
 From the below computed metrics, it can be concluded that the prediction model is closely fit to the regression line.
 <img src="https://github.com/hueeylow/python/blob/main/15_Check_Alogrithm.gif">
 <br>

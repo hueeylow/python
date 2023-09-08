@@ -63,7 +63,9 @@ It is observed that most scatter points fall along straight diagonal 45 degrees 
 <img src="https://github.com/hueeylow/python/blob/main/13_Checking_Normality_Errors.gif">
 
 <br>
-<b> (11) Checking for Residual </b><br>  <br>
+<b> (11) Checking for Residual </b><br> 
+<br>
+It is observed that distrbution is normal and evenly spreaded with a bell-shaped peakm and is symmetric around the mean. The mean, median and mode here are equal.<br><br>
 <img src="https://github.com/hueeylow/python/blob/main/14_Checking_Residual_1.gif">
 
 <img src="https://github.com/hueeylow/python/blob/main/14_Checking_Residual_2.gif">

@@ -33,9 +33,9 @@ The scatterplot explains that coordinate points shifting to the right would mean
 
 <br>
 
-<b> (6) To split target variable (Sales Price) and independent variables </b><br> 
-80% for training data, 20% for testing data<br>
+<b> (6) To split target variable and independent variables </b><br> 
 
+Sales Price is set as target variable to predict future housing price using rest of the dataset. I used train/test/split method by importing scikit-learn library to aid in dividing features data (X_data) and target data (y_data), and subsequently put them into train and test variables. In this demo, 80% of data will be used to train model for predictive analysis; 20% of data will used as test data.<br> <br> 
 <img src="https://github.com/hueeylow/python/blob/main/07_Split_Data.gif" width>
 
 <br>

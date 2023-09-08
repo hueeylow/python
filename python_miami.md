@@ -64,7 +64,7 @@ To check for null values before perform any data cleansing. The dataset is fine,
 <br>
 <b> (12) Evaluate the Prediction Model </b><br>  <br>
 <img src="https://github.com/hueeylow/python/blob/main/15_Check_Alogrithm.gif">
-
-
+<br>
+<br>
 Note: This page is still developing <br> <br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

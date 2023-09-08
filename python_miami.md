@@ -59,7 +59,7 @@ Scattered data points in red are the most pricey due to bigger floor area and lo
 
 <br>
 <b> (10) Checking for Normality Errors </b><br>  <br>
-Most of data points fall along straight diagonal line of 45 degrees, thus is assumed that the data is normally distributed.
+Most of the data points are along the straight diagonal line of 45-degrees angle, thus is assumed that the data is evenly distributed.
 <img src="https://github.com/hueeylow/python/blob/main/13_Checking_Normality_Errors.gif">
 
 <br>

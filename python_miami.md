@@ -22,7 +22,8 @@ This function is called to return descriptions that I am interested to know - mi
 <img src="https://github.com/hueeylow/python/blob/main/04_CheckMissingValue.gif">
 <br>
 
-<b> (4) Scatterplot graph to show correlation between Sales Price and Floor Area</b><br>  <br>
+<b> (4) Scatterplot to show correlation between Sales Price and Floor Area</b><br>  <br>
+The scatterplot explains that coordinate points shifting to the right would mean increasing floor area tend to have increasing asking sale price.
 <img src="https://github.com/hueeylow/python/blob/main/05_TotalLvgArea_SalesPrice.gif">
 <br>
 

@@ -66,5 +66,5 @@ To check for null values before perform any data cleansing. The dataset is fine,
 <img src="https://github.com/hueeylow/python/blob/main/15_Check_Alogrithm.gif">
 
 
-Note: This page is still developing <br>
+Note: This page is still developing <br> <br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

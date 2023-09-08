@@ -18,16 +18,16 @@ The necessary libraries to be imported are: <br>
 <img src="https://github.com/hueeylow/python/blob/main/03_CheckMissingValue.gif" width="635">
 
 <b> (3) Using Describe( ) function to view min/max value & total records of each attribute in the dataset</b><br> <br> 
-This function is called to return descriptions that I am interested to know - min/max value, total records of each attribute in the dataset.
+This function is called to return descriptions that I am interested to know - min/max value, total records of each attribute in the dataset.<br><br>
 <img src="https://github.com/hueeylow/python/blob/main/04_CheckMissingValue.gif">
 <br>
 
 <b> (4) Scatterplot to show correlation between Sales Price and Floor Area</b><br>  <br>
-The scatterplot explains that coordinate points shifting to the right would mean increasing floor area tend to have higher asking price.<br>
+The scatterplot explains that coordinate points shifting to the right would mean increasing floor area tend to have higher asking price.<br><br>
 <img src="https://github.com/hueeylow/python/blob/main/05_TotalLvgArea_SalesPrice.gif">
 <br>
 
-<b> (5) Histogram charts overview of all attributes</b><br>  <br>
+<b> (5) Histogram Overview of all Variables </b><br>  <br>
 <img src="https://github.com/hueeylow/python/blob/main/06_Histogram1.gif">
 <img src="https://github.com/hueeylow/python/blob/main/06_Histogram2.gif">
 

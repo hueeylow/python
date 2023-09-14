@@ -33,8 +33,8 @@ Predicted sales numbers were derived from the marketing budget in the dataset
 <br>
 <kbd><img src="https://github.com/hueeylow/python/blob/main/11_py_mkt_budget.gif" height=400></kbd>
 <br>
-<b><br> (6) Plot Actual Sales vs Predicted Sales</b>
+<b><br> (6) Plot actual sales Vs predicted Sales</b>
 <kbd><img src="https://github.com/hueeylow/python/blob/main/12_py_mkt_budget.gif" height=500></kbd>
 <br>
-<b><br> (7) Export Predicted Sales to .csv file</b> <br>
+<b><br> (7) Export predicted sales data to .csv file</b> <br>
 <kbd><img src="https://github.com/hueeylow/python/blob/main/15_py_mkt_budget.gif" height=500></kbd>

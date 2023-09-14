@@ -12,8 +12,7 @@ In this project demo, marketing budget and actual sales will be used to predict 
 <kbd><img src="https://github.com/hueeylow/python/blob/main/02_py_mkt_budget.gif" height=500></kbd>
 <br>
 <br>
-<b>(2) Scatterplot</b>
-<br> Actual sales increases along with increasing marketing budget
+<b>(2) Scatterplot - Actual sales increases along with increasing marketing budget </b>
 <kbd><img src="https://github.com/hueeylow/python/blob/main/05_py_mkt_budget.gif" height=500></kbd>
 <br>
 <br>

@@ -38,4 +38,9 @@ Predicted sales numbers were derived from the marketing budget in the dataset
 <br>
 <b><br> (7) Export predicted sales data</a> to .csv file</b> <br>
 <kbd><img src="https://github.com/hueeylow/python/blob/main/15_py_mkt_budget.gif" height=500></kbd>
+<br>
+<br>
+<b>Click to view <a href="https://github.com/hueeylow/python/blob/main/sales_dataset.csv"> Historial Sales Data</a> and <a href="https://github.com/hueeylow/python/blob/main/predicted_sales.csv"> Predicted Sales Data<br></b></a>
+<br>
 
+<a href="https://github.com/hueeylow"> < Back to main page </a>

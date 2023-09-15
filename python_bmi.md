@@ -1,4 +1,4 @@
-# Python Project Demo - Body Mass Index (BMI) Indicator
+# Body Mass Index (BMI) Indicator using Python
 Welcome to my python project demo! 
 
 In this showcase, i have created a Body Mass Index (BMI) Indicator tool to gauge one's health status:

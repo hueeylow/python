@@ -1,4 +1,4 @@
-# Python Project Demo - Predict Sales from Historical Data
+# Predict Sales from Historical Data using Python
 Welcome to my python project demo! 
 <br><br>
 In this project demo, marketing budget and actual sales will be used to predict sales numbers using linear regression method, and thereafter the predicted data will be exported to .csv file.

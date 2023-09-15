@@ -1,4 +1,4 @@
-# Predictive Analysis on Housing Prices using Python Learning Model
+# Predictive Analysis on Housing Prices using Python
 <br>
 In this project demo, Miami Housing Prices dataset (obtained from Kaggle) will be used to perform predicitive analysis on housing prices based on historical values. 
 <br> <br>

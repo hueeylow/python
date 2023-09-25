@@ -9,10 +9,10 @@ The project focus in this demo will illustrate the following: <br>  <br>
 I have created 2 sample word doc files: <br>
 <br>
 
-- Candidate's Profile Summary<br>
+- Candidate's Profile Summary:<br>
 <img src="https://github.com/hueeylow/python/blob/main/01_PythonSkills_Career_Obj.gif" width=860>
 
-- Job Essential Skills<br>
+- Job Essential Skills:<br>
 <img src="https://github.com/hueeylow/python/blob/main/02_PythonSkills_Keyword.gif" width=860>
 
 - View Source Code & Results of Skills Match by % <br>

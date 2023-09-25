@@ -1,4 +1,4 @@
-# Job skills Compatibility using Python
+# Keyword Match & Extraction using Python
 <br>
 The project focus in this demo will illustrate the following: <br>  <br>
 (1) Job skills compatibility match <br>

@@ -1,6 +1,6 @@
 # Job skills Compatibility using Python
 <br>
-The project focus in this demo will illustrated the following: <br>  <br>
+The project focus in this demo will illustrate the following: <br>  <br>
 (1) Job skills compatibility match <br>
 (2) Extract keyword from a job candidate's profile summary
 <br>

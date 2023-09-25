@@ -12,14 +12,14 @@ I have created 2 sample word doc files: <br>
 - Candidate's Profile Summary<br>
 <img src="https://github.com/hueeylow/python/blob/main/01_PythonSkills_Career_Obj.gif" width=860>
 
-- Skills Keyword<br>
+- Job Essential Skills<br>
 <img src="https://github.com/hueeylow/python/blob/main/02_PythonSkills_Keyword.gif" width=860>
 
 - View Source Code & Results of Skills Match by % <br>
 <img src="https://github.com/hueeylow/python/blob/main/03_PythonSkills_Script_1.gif" width=860>
 <br>
-  <b> (2) Extract keyword from a job candidate's profile summary</b><br>
-  <br> Using Rake function splits the text into a list of words, removing stop words from the same list. In other words, it drop word(s) off from the sentence which does not add meaning to it.
+  <b> (2) Extract keyword from a Job Candidate's Profile Summary</b><br>
+  <br> Using Rake() function splits the text into a list of words, removing stop words from the same list. It drop off word(s) from the sentence which does not add meaning to it.
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/04_PythonSkills_Script_2.gif" width=860>
 <img src="https://github.com/hueeylow/python/blob/main/01_PythonSkills_Career_Obj.gif" width=860>

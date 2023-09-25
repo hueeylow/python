@@ -23,6 +23,6 @@ I have created 2 sample word doc files: <br>
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/04_PythonSkills_Script_2.gif" width=860>
 <img src="https://github.com/hueeylow/python/blob/main/01_PythonSkills_Career_Obj.gif" width=860>
-The above keyword match and text extraction brings efficiency to work processes that requires to perform narrow filtering and analysis over large volume of data.
+The above keyword match and text extraction can bring better efficiency to work processes that requires to perform narrow filtering and analysis over large volume of data.
 <br><br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

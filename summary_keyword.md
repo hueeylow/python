@@ -23,6 +23,6 @@ I have created 2 sample word doc files: <br>
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/04_PythonSkills_Script_2.gif" width=860>
 <img src="https://github.com/hueeylow/python/blob/main/01_PythonSkills_Career_Obj.gif" width=860>
-These 2 automation methodology can be intergrated into daily work to improve business operating processes, especially if the role requires to deal with large volume of data.
+The above keyword match and text extraction brings efficiency to work processes that requires to perform narrow filtering and analysis over large volume of data.
 <br><br>
 <a href="https://github.com/hueeylow"> < Back to main page </a>

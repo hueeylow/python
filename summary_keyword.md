@@ -24,6 +24,7 @@ The 2 files were compared and skills match percentage compatibility were display
 <br>
 <br>
   <b> (2) Keyword Extraction from Candidate's Profile </b>
+   <br>
   <br> Using Rake( ) function to split chunk of text into a list of words. It will also remove words that does not add meaning to it:
 <br>
 <img src="https://github.com/hueeylow/python/blob/main/01_PythonSkills_Career_Obj.gif" width=860>

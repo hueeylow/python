@@ -36,7 +36,7 @@ plt.show()
 <img width="631" height="482" alt="image" src="https://github.com/user-attachments/assets/6dd05489-198f-4fdc-a153-a1612596f9da" /><br>
 
 As Y2024 marked a total $4.4M revenue, I shall dive into Y2024 to show the breakdown of sales revenue by category. </br></br>
-<b>Sales Revenue by Category in Y2024</b><br>
+<b>Sales Revenue by Category in Y2024</b>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])
 filtered_data = sales_data[sales_data["Date"].dt.year == 2024]
@@ -88,7 +88,7 @@ plt.show()
 ```
 <img width="1505" height="708" alt="image" src="https://github.com/user-attachments/assets/b755f43f-dbc8-4745-a4dc-edccfd4cac38" /> <br>
 Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br>
-<b>Y2024 Sales Platform Performance </b><br><br>
+<b>Y2024 Sales Platform Performance </b><br>
 After identifying the leading sales categories, sales channels are another key factor in understanding which avenues generate the strongest traction. <br>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])

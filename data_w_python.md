@@ -109,21 +109,15 @@ In 2024, iHerb led platform revenue with approximately $1.61M, followed by Amazo
 Let's visualize the geographical distribution of sales revenue across regions. <br>
 
 ```
-# Filter 2024 sales data
 sales_2024 = sales_data[sales_data['Date'].dt.year == 2024]
-
-# Group by location and sum Revenue
 sales_by_location = sales_2024.groupby('Location')['Revenue'].sum().reset_index()
 
-# Round and format Revenue
 sales_by_location['Revenue'] = sales_by_location['Revenue'].apply(lambda x: "${:,.0f}".format(x))
 
 print(sales_by_location.sort_values(by='Revenue', ascending=False).head())
 
-# Create numeric column for coloring and sizing bubbles
 sales_by_location['Revenue_numeric'] = sales_2024.groupby('Location')['Revenue'].sum().values
 
-# Create choropleth
 fig = px.choropleth(
     sales_by_location,
     locations='Location',
@@ -135,7 +129,6 @@ fig = px.choropleth(
     height=600
 )
 
-# Add data points on map
 fig.add_trace(
     go.Scattergeo(
         locations=sales_by_location['Location'],
@@ -154,4 +147,5 @@ fig.add_trace(
 
 fig.show()
 ```
-<img width="1232" height="542" alt="image" src="https://github.com/user-attachments/assets/10d26bd4-8df9-48c5-b6e8-b6d64d4c743c" />
+<img width="1370" height="800" alt="image" src="https://github.com/user-attachments/assets/a070b5b5-5cea-4a55-a5d7-1fb1dff10a40" />
+

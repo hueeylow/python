@@ -65,6 +65,7 @@ plt.show()
 ```
 
 <img width="1372" height="802" alt="image" src="https://github.com/user-attachments/assets/0daf88e2-6101-410a-8485-e51b1b0d4a84" /> </br>
+<b>Key Observations</b><br>
 The Vitamin and Mineral product categories contributed to strong sales performance in Y2024, with each achieving approximately $800k revenue. </br></br>
 
 
@@ -97,7 +98,8 @@ plt.tight_layout()
 plt.show()
 ```
 <img width="1505" height="708" alt="image" src="https://github.com/user-attachments/assets/b755f43f-dbc8-4745-a4dc-edccfd4cac38" /> <br>
-Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br><br>
+<b>Key Observations</b><br>
+Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br>
 
 <b>Y2024 Sales Platform Performance </b><br>
 After identifying the leading sales categories, sales channels are another key factor in understanding which avenues generate the strongest traction. <br>
@@ -114,6 +116,7 @@ bars = plt.barh(platform_sales.index, platform_sales.values, color=plt.cm.Pastel
 plt.show()
 ```
 <img width="802" height="381" alt="image" src="https://github.com/user-attachments/assets/67e5addd-072c-4a7a-812b-843d428eeb72" /> <br>
+<b>Key Observations</b><br>
 In 2024, iHerb led platform revenue with approximately $1.61M, followed by Amazon at $1.49M and Walmart at $1.34M, showing that iHerb outperformed its closest competitor by around $120k and Walmart by $268k. Together, iHerb and Amazon contributed roughly 73% of total revenue, indicating that these two platforms dominate sales, while Walmart plays a smaller role. Overall, all three platforms achieved healthy revenues above $1M, highlighting strong sales performance across channels, with opportunities to further grow Amazon and Walmart while maintaining iHerb’s lead.
 <br><br><br>
 <b> Y2024 Regional Sales Revenue Distribution</b><br>

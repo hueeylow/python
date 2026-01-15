@@ -6,4 +6,4 @@
 <img width="577" height="472" alt="image" src="https://github.com/user-attachments/assets/5dd28633-bd76-427d-b8ee-421275b32a6e" />
 <br>
 <img width="307" height="246" alt="image" src="https://github.com/user-attachments/assets/a95f4185-805b-4b56-b8c9-f683445d4bb1" /><br>
-Null data is not found in the dataset, hence no data imputation is required.
+Null data is not found in the dataset, hence no data imputation is required. Let's plot the sales trend from Y2020 to Y2024. <br>

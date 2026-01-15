@@ -104,5 +104,54 @@ plt.show()
 ```
 <img width="802" height="381" alt="image" src="https://github.com/user-attachments/assets/67e5addd-072c-4a7a-812b-843d428eeb72" /> <br>
 In 2024, iHerb led platform revenue with approximately $1.61M, followed by Amazon at $1.49M and Walmart at $1.34M, showing that iHerb outperformed its closest competitor by around $120k and Walmart by $268k. Together, iHerb and Amazon contributed roughly 73% of total revenue, indicating that these two platforms dominate sales, while Walmart plays a smaller role. Overall, all three platforms achieved healthy revenues above $1M, highlighting strong sales performance across channels, with opportunities to further grow Amazon and Walmart while maintaining iHerb’s lead.
+<br><br>
+<b> Y2024 Regional Sales Revenue Distribution</b><br>
+Let's visualize the geographical distribution of sales revenue across regions. <br>
 
+```
+# Filter 2024 sales data
+sales_2024 = sales_data[sales_data['Date'].dt.year == 2024]
 
+# Group by location and sum Revenue
+sales_by_location = sales_2024.groupby('Location')['Revenue'].sum().reset_index()
+
+# Round and format Revenue
+sales_by_location['Revenue'] = sales_by_location['Revenue'].apply(lambda x: "${:,.0f}".format(x))
+
+print(sales_by_location.sort_values(by='Revenue', ascending=False).head())
+
+# Create numeric column for coloring and sizing bubbles
+sales_by_location['Revenue_numeric'] = sales_2024.groupby('Location')['Revenue'].sum().values
+
+# Create choropleth
+fig = px.choropleth(
+    sales_by_location,
+    locations='Location',
+    color='Revenue_numeric',
+    color_continuous_scale=yellow_scale,  # use variable, not string
+    title='Sales Revenue by Country (2024)',
+    hover_data={'Revenue': True, 'Revenue_numeric': False},
+    width=1000,
+    height=600
+)
+
+# Add data points on map
+fig.add_trace(
+    go.Scattergeo(
+        locations=sales_by_location['Location'],
+        locationmode='country names',
+        text=sales_by_location.apply(lambda row: f"{row['Location']}: {row['Revenue']}", axis=1),
+        marker=dict(
+            size=sales_by_location['Revenue_numeric'] / sales_by_location['Revenue_numeric'].max() * 30,
+            color=sales_by_location['Revenue_numeric'],
+            colorscale=yellow_scale,  # pass variable, no quotes
+            showscale=False,
+            line=dict(width=0.5, color='black')
+        ),
+        hoverinfo='text'
+    )
+)
+
+fig.show()
+```
+<img width="1232" height="542" alt="image" src="https://github.com/user-attachments/assets/10d26bd4-8df9-48c5-b6e8-b6d64d4c743c" />

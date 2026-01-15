@@ -55,4 +55,54 @@ plt.show()
 ```
 
 <img width="1372" height="802" alt="image" src="https://github.com/user-attachments/assets/0daf88e2-6101-410a-8485-e51b1b0d4a84" /> </br>
-The Vitamin and Mineral product categories contributed to strong sales performance in Y2024, with each achieving approximately $800k in sales. </br>
+The Vitamin and Mineral product categories contributed to strong sales performance in Y2024, with each achieving approximately $800k revenue. </br></br>
+
+
+<b>Y2024 Sales Trend</b></br>
+To gain deeper insights into monthly sales performance in Y2024, a multi-line trend analysis by product category was conducted. </br>
+```
+sales_data["Date"] = pd.to_datetime(sales_data["Date"])
+filtered_data = sales_data[sales_data["Date"].dt.year == 2024].copy()
+
+filtered_data["Month"] = filtered_data["Date"].dt.month
+
+monthly_trends = filtered_data.pivot_table(
+    index="Month",
+    columns="Category",
+    values="Revenue",
+    aggfunc="sum"
+).sort_index()
+
+plt.figure(figsize=(12, 6))
+for category in monthly_trends.columns:
+    plt.plot(monthly_trends.index, monthly_trends[category], marker='o', label=category)
+
+plt.title("Y2024 Category Sales Trend by Month")
+plt.xlabel("Month")
+plt.ylabel("Revenue")
+plt.xticks(monthly_trends.index, [pd.to_datetime(str(m), format='%m').strftime('%b') for m in monthly_trends.index])
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.legend(title="Category")
+plt.tight_layout()
+plt.show()
+```
+<img width="1505" height="708" alt="image" src="https://github.com/user-attachments/assets/b755f43f-dbc8-4745-a4dc-edccfd4cac38" /> <br>
+Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br>
+<b>Y2024 Sales Platform Performance </b><br><br>
+After identifying the leading sales categories, sales channels are another key factor in understanding which avenues generate the strongest traction. <br>
+```
+sales_data["Date"] = pd.to_datetime(sales_data["Date"])
+
+filtered_data = sales_data[sales_data["Date"].dt.year == 2024].copy()
+
+platform_sales = filtered_data.groupby('Platform')['Revenue'].sum().sort_values()
+
+plt.figure(figsize=(6, 3))
+bars = plt.barh(platform_sales.index, platform_sales.values, color=plt.cm.Pastel1.colors)
+
+plt.show()
+```
+<img width="802" height="381" alt="image" src="https://github.com/user-attachments/assets/67e5addd-072c-4a7a-812b-843d428eeb72" /> <br>
+In 2024, iHerb led platform revenue with approximately $1.61M, followed by Amazon at $1.49M and Walmart at $1.34M, showing that iHerb outperformed its closest competitor by around $120k and Walmart by $268k. Together, iHerb and Amazon contributed roughly 73% of total revenue, indicating that these two platforms dominate sales, while Walmart plays a smaller role. Overall, all three platforms achieved healthy revenues above $1M, highlighting strong sales performance across channels, with opportunities to further grow Amazon and Walmart while maintaining iHerb’s lead.
+
+

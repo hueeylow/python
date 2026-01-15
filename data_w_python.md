@@ -7,7 +7,7 @@
 <img width="307" height="246" alt="image" src="https://github.com/user-attachments/assets/a95f4185-805b-4b56-b8c9-f683445d4bb1" /><br>
 <p>Null data is not found in the dataset, hence no data imputation is required. </p>
 
-<b>Plot Sales Performance Trend Y2020 to Y2024</b><br>
+<b>Sales Performance Trend Y2020 to Y2024</b><br>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])
 
@@ -87,7 +87,8 @@ plt.tight_layout()
 plt.show()
 ```
 <img width="1505" height="708" alt="image" src="https://github.com/user-attachments/assets/b755f43f-dbc8-4745-a4dc-edccfd4cac38" /> <br>
-Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br>
+Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br><br>
+
 <b>Y2024 Sales Platform Performance </b><br>
 After identifying the leading sales categories, sales channels are another key factor in understanding which avenues generate the strongest traction. <br>
 ```

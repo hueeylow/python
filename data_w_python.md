@@ -104,7 +104,7 @@ plt.show()
 ```
 <img width="802" height="381" alt="image" src="https://github.com/user-attachments/assets/67e5addd-072c-4a7a-812b-843d428eeb72" /> <br>
 In 2024, iHerb led platform revenue with approximately $1.61M, followed by Amazon at $1.49M and Walmart at $1.34M, showing that iHerb outperformed its closest competitor by around $120k and Walmart by $268k. Together, iHerb and Amazon contributed roughly 73% of total revenue, indicating that these two platforms dominate sales, while Walmart plays a smaller role. Overall, all three platforms achieved healthy revenues above $1M, highlighting strong sales performance across channels, with opportunities to further grow Amazon and Walmart while maintaining iHerb’s lead.
-<br><br>
+<br><br><br>
 <b> Y2024 Regional Sales Revenue Distribution</b><br>
 Let's visualize the geographical distribution of sales revenue across regions. <br>
 

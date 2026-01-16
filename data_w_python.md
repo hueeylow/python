@@ -45,24 +45,9 @@ plt.show()
 ```
 <img width="631" height="482" alt="image" src="https://github.com/user-attachments/assets/6dd05489-198f-4fdc-a153-a1612596f9da" /><br>
 
-As Y2024 marked a total $4.4M revenue, I shall dive into Y2024 to show the breakdown of sales revenue by category. </br></br>
-<b>Sales Revenue by Category in Y2024</b>
-```
-sales_data["Date"] = pd.to_datetime(sales_data["Date"])
-filtered_data = sales_data[sales_data["Date"].dt.year == 2024]
+A deep dive into yearly sales trend by monthly performance using subplots: <br><br>
+<img width="996" height="788" alt="image" src="https://github.com/user-attachments/assets/7933a384-da0a-44f6-8880-de8fd84f4ac8" />
 
-category_revenue = (
-    filtered_data
-    .groupby("Category")["Revenue"]
-    .sum()
-    .sort_values(ascending=False)
-)
-
-plt.figure(figsize=(10, 6))
-bars = plt.bar(category_revenue.index, category_revenue.values, color='skyblue')
-
-plt.show()
-```
 
 <img width="1372" height="802" alt="image" src="https://github.com/user-attachments/assets/0daf88e2-6101-410a-8485-e51b1b0d4a84" /> </br>
 <b>Key Observations</b><br>
@@ -70,7 +55,7 @@ The Vitamin and Mineral product categories contributed to strong sales performan
 
 
 <b>Y2024 Sales Trend</b></br>
-To gain deeper insights into monthly sales performance in Y2024, a multi-line trend analysis by product category was conducted. </br>
+To gain deeper insights into monthly sales performance in Y2024, a multi-line trend analysis by product category was illustrated: </br>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])
 filtered_data = sales_data[sales_data["Date"].dt.year == 2024].copy()

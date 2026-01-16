@@ -151,6 +151,6 @@ fig.show()
 ```
 <img width="1370" height="800" alt="image" src="https://github.com/user-attachments/assets/a070b5b5-5cea-4a55-a5d7-1fb1dff10a40" /> <br>
 <b>Key Observations</b> <br>
-In 2024, Canada led sales revenue with $1,563,894, slightly ahead of the USA at $1,523,465, while the UK followed with $1,342,008, highlighting strong North American performance and a modest gap in Europe of roughly $180K. North America clearly dominates overall revenue, whereas Europe shows moderate results, and other continents such as Asia, South America, and Africa either contribute minimally or have no recorded sales, indicating potential growth opportunities. <br><br>Efforts could focus on boosting sales performance in Europe and exploring expansion into Asia and other untapped regions.
+In 2024, Canada led sales revenue with $1.56M, slightly ahead of the USA at $1.52M, while the UK followed with $1.34M, highlighting strong North American performance and a modest gap in Europe of roughly $180K. North America clearly dominates overall revenue, whereas Europe shows moderate results, and other continents such as Asia, South America, and Africa either contribute minimally or have no recorded sales, indicating potential growth opportunities. <br><br>Efforts could focus on boosting sales performance in Europe and exploring expansion into Asia and other untapped regions.
 
 

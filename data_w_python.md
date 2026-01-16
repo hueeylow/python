@@ -17,13 +17,13 @@ import matplotlib.dates as mdates
 <img width="307" height="246" alt="image" src="https://github.com/user-attachments/assets/a95f4185-805b-4b56-b8c9-f683445d4bb1" /><br>
 <p>Null data is not found in the dataset, hence no data imputation is required. </p>
 
-<b>Sales Performance Trend Y2020 to Y2024</b><br>
+<b>Sales Performance Trend Y2020 to Y2025</b><br>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])
 
 filtered_data = sales_data[
     (sales_data["Date"] >= "2020-01-01") &
-    (sales_data["Date"] < "2025-01-01")
+    (sales_data["Date"] < "2026-01-01")
 ]
 
 years = pd.Index(range(2020, 2025), name="Year")
@@ -43,7 +43,9 @@ plt.plot(
 )
 plt.show()
 ```
-<img width="631" height="482" alt="image" src="https://github.com/user-attachments/assets/6dd05489-198f-4fdc-a153-a1612596f9da" /><br>
+
+<img width="542" height="400" alt="image" src="https://github.com/user-attachments/assets/bf290216-dfa2-42cf-9a33-9f1a46eb61ca" /><br>
+
 
 A deep dive into yearly sales trend by monthly performance using subplots: <br><br>
 <img width="996" height="788" alt="image" src="https://github.com/user-attachments/assets/7933a384-da0a-44f6-8880-de8fd84f4ac8" /> <br>

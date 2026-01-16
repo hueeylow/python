@@ -46,16 +46,17 @@ plt.show()
 <img width="631" height="482" alt="image" src="https://github.com/user-attachments/assets/6dd05489-198f-4fdc-a153-a1612596f9da" /><br>
 
 A deep dive into yearly sales trend by monthly performance using subplots: <br><br>
-<img width="996" height="788" alt="image" src="https://github.com/user-attachments/assets/7933a384-da0a-44f6-8880-de8fd84f4ac8" />
+<img width="996" height="788" alt="image" src="https://github.com/user-attachments/assets/7933a384-da0a-44f6-8880-de8fd84f4ac8" /> <br>
 
+Following the review of long-term sales trends from 2020 to 2025, this section drills down into 2024 to conduct a detailed analysis of sales performance by product category: <br>
 
 <img width="1372" height="802" alt="image" src="https://github.com/user-attachments/assets/0daf88e2-6101-410a-8485-e51b1b0d4a84" /> </br>
 <b>Key Observations</b><br>
 The Vitamin and Mineral product categories contributed to strong sales performance in Y2024, with each achieving approximately $800k revenue. </br></br>
 
 
-<b>Y2024 Sales Trend</b></br>
-To gain deeper insights into monthly sales performance in Y2024, a multi-line trend analysis by product category was illustrated: </br>
+<b>Y2024 Category Sales Trend by Month</b></br>
+A multi-trend line chart is used to compare category-level sales trends, enabling the identification of seasonality, performance consistency, and intra-year variations: </br>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])
 filtered_data = sales_data[sales_data["Date"].dt.year == 2024].copy()
@@ -86,7 +87,7 @@ plt.show()
 <b>Key Observations</b><br>
 Since Jan 2024, Vitamin and Mineral categories have consistently outperformed other product categories in terms of sales performance. <br><br>
 
-<b>Y2024 Sales Platform Performance </b><br>
+<b>Y2024 Sales by Platform</b><br>
 After identifying the leading sales categories, sales channels are another key factor in understanding which avenues generate the strongest traction. <br>
 ```
 sales_data["Date"] = pd.to_datetime(sales_data["Date"])

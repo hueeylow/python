@@ -82,7 +82,17 @@ plt.show()
 The chart shows a clear association between family history and hypertension risk. Among individuals without a family history of hypertension, most do not have hypertension (620 non-hypertension vs 380 hypertension). In contrast, individuals with a family history show a higher prevalence of hypertension, with 652 hypertension cases compared to 333 non-hypertension cases. This indicates that having a family history of hypertension is associated with a significantly increased likelihood of developing hypertension and suggests that family history is an important risk factor in this dataset. <br><br>
 <b>Hypertension Risk Prediction with Logistic Regression</b>
 <br><br>
-Building on earlier observation, I shall use logistic regression to further analyse and predict the risk of hypertension based on relevant factors. First, identify key features, including family history and other patient attributes, and then define hypertension as the target variable. The data is then split into training and testing sets to ensure robust model evaluation. <br> <br>
+Building on earlier observation, I shall use logistic regression to further analyse and predict the risk of hypertension based on relevant factors. First, identify key features, including family history and other patient attributes, and then define hypertension as the target variable. <br> <br>
+<b>Identify Features and Target Variable</b><br>
+
+
+```
+test
+```
+
+
+<br> <br>
+The data is then split into training and testing sets to ensure robust model evaluation. <br> <br>
 
 A logistic regression model is then trained on the dataset to learn how these features influence the likelihood of hypertension. 
 <br> <br>

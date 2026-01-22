@@ -49,5 +49,33 @@ plt.title('Class Distribution')
 plt.show()
 ```
 <img width="517" height="406" alt="image" src="https://github.com/user-attachments/assets/57ea37f3-96dc-4547-8c92-1655b160f2ab" /> <br>
-The dataset shows a near-balanced distribution, with 1,032 individuals diagnosed with hypertension compared to 953 without hypertension, giving an approximate ratio of 1.08:1.
+The dataset shows a near-balanced distribution, with 1,032 individuals diagnosed with hypertension compared to 953 without hypertension, giving an approximate ratio of 1.08:1. <br><br>
+The next step of the analysis examines whether family history of hypertension is associated with an increased risk of developing hypertension.<br>
+```
+ct = pd.crosstab(
+    hypertension_data['Family_History'],
+    hypertension_data['Has_Hypertension']
+)
 
+# Plot stacked bar chart
+ax = ct.plot(kind='bar', stacked=True, figsize=(8,6), color=['#D2B48C', 'salmon'])
+
+# Title and labels
+plt.title('Hypertension with Family History')
+plt.xlabel('Family History')
+plt.ylabel('Count')
+plt.xticks(rotation=90, ha='right')
+
+# Add data labels for each segment
+for i, family in enumerate(ct.index):
+    cumulative = 0
+    for j, col in enumerate(ct.columns):
+        count = ct.loc[family, col]
+        ax.text(i, cumulative + count/2, str(count), ha='center', va='center', color='white', fontweight='bold')
+        cumulative += count
+
+plt.show()
+
+```
+<img width="627" height="492" alt="image" src="https://github.com/user-attachments/assets/7929ea4f-a29e-466a-9754-008abc1304d2" />
+<br>

@@ -87,6 +87,29 @@ Building on earlier observation, I shall use logistic regression to further anal
 
 
 ```
+X = hypertension_data[
+    [
+        'Age', 
+        'Salt_Intake', 
+        'Stress_Score',
+        'BP_History', 
+        'BMI', 
+        'Medication', 
+        'Family_History', 
+        'Exercise_Level', 
+        'Smoking_Status'
+    ]
+]
+y = hypertension_data['Has_Hypertension'].map({'Yes': 1, 'No': 0})
+
+# One-hot encoding for Object datatypes
+X = pd.get_dummies(X,columns=['BP_History','Medication', 'Family_History', 'Exercise_Level', 'Smoking_Status'],dtype=int)
+```
+<br>
+<b>Split and Train Data</b><br>
+The data is then split into training and testing sets to ensure robust model evaluation. <br> <br>
+
+```
 test
 ```
 

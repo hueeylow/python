@@ -48,4 +48,6 @@ plt.ylabel('Count')  # Set y-axis label
 plt.title('Class Distribution')
 plt.show()
 ```
-<img width="517" height="406" alt="image" src="https://github.com/user-attachments/assets/57ea37f3-96dc-4547-8c92-1655b160f2ab" />
+<img width="517" height="406" alt="image" src="https://github.com/user-attachments/assets/57ea37f3-96dc-4547-8c92-1655b160f2ab" /> <br>
+The dataset shows a near-balanced distribution, with 1,032 individuals diagnosed with hypertension compared to 953 without hypertension, giving an approximate ratio of 1.08:1.
+

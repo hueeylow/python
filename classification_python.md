@@ -38,6 +38,8 @@ class_counts = hypertension_data['Has_Hypertension'].value_counts()
 print("Class Distribution:")
 print(class_counts)
 ```
+<br>
+
 <b>Visualize the class distribution</b>
 ```
 plt.bar(class_counts.index, class_counts.values, color='skyblue')

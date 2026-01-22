@@ -158,11 +158,13 @@ print(f"F1 Score: {f1}")
 ```
 <img width="356" height="67" alt="image" src="https://github.com/user-attachments/assets/9dcc06d3-bfaa-47dd-812b-dbf742b59fce" /><br>
 
-Accuracy: 0.844 → Model is correct 84.4% of the time overall.<br>
-Precision: 0.849 → When model predicts positive, it’s correct 84.9% of the time.<br>
-Recall: 0.849 → Model correctly identifies 84.9% of all actual positives. <br>
-F1 Score: 0.849 → Good balance between precision and recall. <br>
-Overall Analysis: → The model performs consistently well, with both precision and recall being high.<br>
+Accuracy: 0.844 → The model gets it right about 84% of the time overall. <br>
+Precision: 0.849 → When the model says someone has Hypertension, it’s correct about 85% of the time. <br>
+Recall: 0.849 → The model successfully finds about 85% of all people who actually have the condition. <br>
+F1 Score: 0.849 → This shows a good balance between being correct and catching as many cases as possible. <br>
+<br>
+Overall Analysis: The model works reliably, giving accurate predictions while also catching most of the true cases. It performs well across different measures, so we can trust its results. <br>
+<br>
 <br>
 <b>Confusion Matrix to check Classification Performance</b><br>
 ```
@@ -176,8 +178,16 @@ plt.show()
 ```
 <img width="446" height="402" alt="image" src="https://github.com/user-attachments/assets/7bf1e990-d82c-433e-bf9c-35491a6b9e0c" />
 
-<br>
-161 → True Negatives (TN): Class 0 correctly predicted <br>
-174 → True Positives (TP): Class 1 correctly predicted <br>
-31 (top right) → False Positives (FP): Predicted 1 but actually 0 <br>
-31 (bottom left) → False Negatives (FN): Predicted 0 but actually 1 <br>
+<b><br> Derived Results: <br></b>
+True Negatives (TN) = 161: Class 0 correctly predicted → The model correctly identified 161 individuals who do not have the condition. <br>
+True Positives (TP) = 174: Class 1 correctly predicted → The model correctly identified 174 individuals who have the condition. <br>
+False Positives (FP) = 31 top-right: Predicted 1 but actually 0 → The model incorrectly identified 31 healthy individuals have the condition. <br>
+False Negatives (FN) = 31 bottom-left: Predicted 0 but actually 1 → The model missed identified 31 Hypertension-risk individuals. <br>
+
+Most predictions are correct, but there are some mistakes: a few healthy individuals were wrongly predicted as Hypertenion-risk (FP), and a few Hyptension-risk individuals were wrongly predicted as healthy (FN).
+<br><br>
+<b>Overall analysis: <br></b>
+The model is balanced, capturing a large number of both positive and negative cases. <br>
+About 83% of predictions are correct (accuracy = (TN + TP) / total = (161 + 174) / 397 ≈ 0.84). <br>
+Mistakes are equally split between false alarms (FP) and missed detections (FN). <br>
+This shows the model is reliable, but there is still room for improvement, especially in reducing missed Hypertension-risk cases (FN), which is important in detection.

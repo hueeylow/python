@@ -17,5 +17,8 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
 )
+```
+<br>
+```
 hypertension_data = pd.read_csv('hypertension_dataset.csv')
 ```

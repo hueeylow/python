@@ -126,11 +126,7 @@ print(f'Shape of X_test: {X_test.shape}')
 A logistic regression model is then trained on the dataset to learn how these features influence the likelihood of hypertension. 
 <br>
 ```
-from sklearn.linear_model import LogisticRegression
-
-model = LogisticRegression(max_iter = 1000)
-
-# Train the model
-model.fit(X_train, y_train)
+test
 ```
+<br>
 Finally, the model is used to make predictions and evaluate its performance, providing insights into which factors most strongly contribute to hypertension risk.

@@ -82,7 +82,7 @@ plt.show()
 The chart shows a clear association between family history and hypertension risk. Among individuals without a family history of hypertension, most do not have hypertension (620 non-hypertension vs 380 hypertension). In contrast, individuals with a family history show a higher prevalence of hypertension, with 652 hypertension cases compared to 333 non-hypertension cases. This indicates that having a family history of hypertension is associated with a significantly increased likelihood of developing hypertension and suggests that family history is an important risk factor in this dataset. <br><br>
 <b>Hypertension Risk Prediction with Logistic Regression</b>
 <br><br>
-Building on earlier observation, I shall use logistic regression to further analyse and predict the risk of hypertension based on relevant factors. First, identify key features, including family history and other patient attributes, and then define hypertension as the target variable. <br> <br>
+Building on earlier observation, I shall use logistic regression to further analyse and predict the risk of hypertension based on relevant factors. First, identify key features (x), including family history and other patient attributes, and then define hypertension as the target variable (y). <br> <br>
 <b>Identify Features and Target Variable</b><br>
 
 
@@ -102,7 +102,7 @@ X = hypertension_data[
 ]
 y = hypertension_data['Has_Hypertension'].map({'Yes': 1, 'No': 0})
 
-# One-hot encoding for Object datatypes
+# Encode Object datatypes from string to interger
 X = pd.get_dummies(X,columns=['BP_History','Medication', 'Family_History', 'Exercise_Level', 'Smoking_Status'],dtype=int)
 ```
 <br>
@@ -110,8 +110,19 @@ X = pd.get_dummies(X,columns=['BP_History','Medication', 'Family_History', 'Exer
 The data is then split into training and testing sets to ensure robust model evaluation. <br> <br>
 
 ```
-test
+from sklearn.model_selection import train_test_split
+
+# Split the data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Check shape of splits
+print(f'Shape of X_train: {X_train.shape}')
+
+print(f'Shape of X_test: {X_test.shape}')
 ```
+<br> <br>
+<img width="272" height="40" alt="image" src="https://github.com/user-attachments/assets/63763546-0f0f-4bae-99e7-dc0bbc0722c2" />
+<br> <br>
 
 A logistic regression model is then trained on the dataset to learn how these features influence the likelihood of hypertension. 
 <br> <br>

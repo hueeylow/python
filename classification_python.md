@@ -184,7 +184,7 @@ True Positives (TP) = 174: Class 1 correctly predicted → The model correctly i
 False Positives (FP) = 31 top-right: Predicted 1 but actually 0 → The model incorrectly identified 31 healthy individuals have the condition. <br>
 False Negatives (FN) = 31 bottom-left: Predicted 0 but actually 1 → The model missed identified 31 Hypertension-risk individuals. <br>
 
-Most predictions are correct, but there are some mistakes: a few healthy individuals were wrongly predicted as Hypertenion-risk (FP), and a few Hyptension-risk individuals were wrongly predicted as healthy (FN).
+Most predictions are correct, but there are some mistakes: a few healthy individuals were wrongly predicted as Hypertension-risk (FP), and a few Hypertension-risk individuals were wrongly predicted as healthy (FN).
 <br><br>
 <b>Overall analysis: <br></b>
 The model is balanced, capturing a large number of both positive and negative cases. <br>

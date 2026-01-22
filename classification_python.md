@@ -122,11 +122,44 @@ print(f'Shape of X_test: {X_test.shape}')
 ```
 <img width="272" height="40" alt="image" src="https://github.com/user-attachments/assets/63763546-0f0f-4bae-99e7-dc0bbc0722c2" />
 <br> <br>
-<b>Logistic Regression Model (Classification Algorithm)</b>
+<b>Logistic Regression Model (Classification Algorithm)</b><br>
 A logistic regression model is then trained on the dataset to learn how these features influence the likelihood of hypertension. 
-<br>
+<br><br>
+
 ```
-test
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression(max_iter = 1000)
+
+# Train the model
+model.fit(X_train, y_train)
 ```
 <br>
-Finally, the model is used to make predictions and evaluate its performance, providing insights into which factors most strongly contribute to hypertension risk.
+<b>Make Predictions</b><br>
+Finally, the model is ready to make predictions and evaluate its performance, providing insights into which factors most strongly contribute to hypertension risk.<br>
+<br>
+
+```
+ y_pred = model.predict(X_test)
+```
+ <br>
+ <b>Evaluate Models</b><br><br>
+ 
+```
+accuracy = round(accuracy_score(y_test, y_pred),3)
+precision = round(precision_score(y_test, y_pred),3)
+recall = round(recall_score(y_test, y_pred),3) 
+f1 = round(f1_score(y_test, y_pred), 3)
+
+print(f"Accuracy: {accuracy}")
+print(f"Precision: {precision}")
+print(f"Recall: {recall}")
+print(f"F1 Score: {f1}")
+```
+<img width="356" height="67" alt="image" src="https://github.com/user-attachments/assets/9dcc06d3-bfaa-47dd-812b-dbf742b59fce" /><br>
+
+Accuracy: 0.844 ----> Model is correct 84.4% of the time overall.<br>
+Precision: 0.849 ----> When model predicts positive, it’s correct 84.9% of the time.<br>
+Recall: 0.849 -------> Model correctly identifies 84.9% of all actual positives. <br>
+F1 Score: 0.849 -----> Good balance between precision and recall. <br>
+Overall: -------------> The model performs consistently well, with both precision and recall being high.<br>

@@ -79,3 +79,4 @@ plt.show()
 ```
 <img width="627" height="492" alt="image" src="https://github.com/user-attachments/assets/7929ea4f-a29e-466a-9754-008abc1304d2" />
 <br>
+The chart shows a clear association between family history and hypertension risk. Among individuals without a family history of hypertension, most do not have hypertension (620 non-hypertension vs 380 hypertension). In contrast, individuals with a family history show a higher prevalence of hypertension, with 652 hypertension cases compared to 333 non-hypertension cases. This indicates that having a family history of hypertension is associated with a significantly increased likelihood of developing hypertension and suggests that family history is an important risk factor in this dataset. <br>

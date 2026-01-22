@@ -191,3 +191,6 @@ The model is balanced, capturing a large number of both positive and negative ca
 About 83% of predictions are correct (accuracy = (TN + TP) / total = (161 + 174) / 397 ≈ 0.84). <br>
 Mistakes are equally split between false alarms (FP) and missed detections (FN). <br>
 This shows the model is reliable, but there is still room for improvement, especially in reducing missed Hypertension-risk cases (FN), which is important in detection.
+<br>
+<br>
+<a href= "https://www.github.com/hueeylow"><<Back</a>

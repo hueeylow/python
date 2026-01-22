@@ -158,8 +158,26 @@ print(f"F1 Score: {f1}")
 ```
 <img width="356" height="67" alt="image" src="https://github.com/user-attachments/assets/9dcc06d3-bfaa-47dd-812b-dbf742b59fce" /><br>
 
-Accuracy: 0.844 ----> Model is correct 84.4% of the time overall.<br>
-Precision: 0.849 ----> When model predicts positive, it’s correct 84.9% of the time.<br>
-Recall: 0.849 -------> Model correctly identifies 84.9% of all actual positives. <br>
-F1 Score: 0.849 -----> Good balance between precision and recall. <br>
-Overall: -------------> The model performs consistently well, with both precision and recall being high.<br>
+Accuracy: 0.844 → Model is correct 84.4% of the time overall.<br>
+Precision: 0.849 → When model predicts positive, it’s correct 84.9% of the time.<br>
+Recall: 0.849 → Model correctly identifies 84.9% of all actual positives. <br>
+F1 Score: 0.849 → Good balance between precision and recall. <br>
+Overall Analysis: → The model performs consistently well, with both precision and recall being high.<br>
+<br>
+<b>Confusion Matrix to check Classification Performance</b><br>
+```
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+
+cm = confusion_matrix(y_test, y_pred)  # y_test is the true labels
+disp = ConfusionMatrixDisplay(confusion_matrix=cm)
+disp.plot(cmap='Blues')  # You can change color map
+plt.title("Confusion Matrix")
+plt.show()
+```
+<img width="446" height="402" alt="image" src="https://github.com/user-attachments/assets/7bf1e990-d82c-433e-bf9c-35491a6b9e0c" />
+
+<br>
+161 → True Negatives (TN): Class 0 correctly predicted <br>
+174 → True Positives (TP): Class 1 correctly predicted <br>
+31 (top right) → False Positives (FP): Predicted 1 but actually 0 <br>
+31 (bottom left) → False Negatives (FN): Predicted 0 but actually 1 <br>

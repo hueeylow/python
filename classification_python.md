@@ -1,4 +1,4 @@
-<h1>Classsification Prediction with Machine Learning</h1>
+<h1>Hypertension Prediction with Machine Learning</h1>
 <p>Classification is a fundamental machine learning technique used to categorise data into predefined classes based on learned patterns. In the context of disease detection, classification models analyse medical data—such as clinical measurements, symptoms, or diagnostic indicators—to predict whether a patient belongs to a healthy or diseased group. By learning from historical labeled data, these models can support early diagnosis, improve decision-making, and reduce human error. In this project illustration, I will use Hypertension Dataset from Kaggle, to demonstrate how machine learning classification algorithms can be applied to detect Hypertension.</p>
 <br>
 <b>Import Libraries and Load Data</b><br>

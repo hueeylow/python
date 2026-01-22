@@ -1,4 +1,4 @@
-<h1>Visualise Data with Python</h1>
+<h1>Health Supplement Sales Visualisation with Python</h1>
 <p>Visualizing data with Python is a powerful way to transform raw numbers into meaningful insights. With versatile libraries such as Matplotlib, Seaborn, and Plotly, it is easy to create charts, graphs, and interactive dashboards that reveal trends and patterns. In this illustration, I will use Health Supplement Sales Dataset from Kaggle, to visualize the sales performance of a health company, highlighting key insights that can support data-driven decisions.</p></br>
 
 <b>Import Libraries and Load Data</b>

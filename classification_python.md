@@ -105,10 +105,15 @@ y = hypertension_data['Has_Hypertension'].map({'Yes': 1, 'No': 0})
 # One-hot encoding for Object datatypes
 X = pd.get_dummies(X,columns=['BP_History','Medication', 'Family_History', 'Exercise_Level', 'Smoking_Status'],dtype=int)
 ```
-
-
-<br> <br>
+<br>
+<b>Split and Train Data</b><br>
 The data is then split into training and testing sets to ensure robust model evaluation. <br> <br>
+```
+from sklearn.model_selection import train_test_split
+
+# Split the data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
 
 A logistic regression model is then trained on the dataset to learn how these features influence the likelihood of hypertension. 
 <br> <br>

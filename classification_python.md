@@ -31,22 +31,4 @@ hypertension_data = pd.read_csv('hypertension_dataset.csv')
 <img width="537" height="256" alt="image" src="https://github.com/user-attachments/assets/40fd3254-77b7-4631-b57b-d5974e296d83" />
 <br>
 <p>After data imputation, let's analyse the dataset for stats on patients with Hypertension</p>
-<br>
-<b>Analyze the class distribution</b>
-```
-class_counts = hypertension_data['Has_Hypertension'].value_counts()
-print("Class Distribution:")
-print(class_counts)
-```
-<br>
-
-<b>Visualize the class distribution</b>
-```
-plt.bar(class_counts.index, class_counts.values, color='skyblue')
-plt.xlabel('Has_Hypertension')  # Set x-axis label
-plt.ylabel('Count')  # Set y-axis label
-plt.title('Class Distribution')
-plt.show()
-
-```
 
